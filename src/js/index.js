@@ -1,4 +1,4 @@
-import '../css/style.css'
+import '../css/style.scss'
 
 const products=["product1","product2","product3"]
 
