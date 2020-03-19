@@ -1,9 +1,13 @@
-$primary:red;
+$primary:cornflowerblue;
 $secundary:white;
-body{
-    background-color: $primary;
-}
 
-h1{
-    color: $secundary;
+#products{
+    list-style: none;
+    padding: 0;
+    li{
+        padding: 1rem;
+        font-size: 1.4rem;
+        background-color: $primary;
+        color: $secundary;
+    }
 }

@@ -1,17 +1,12 @@
 import '../css/style.scss'
 
-const products=["product1","product2","product3"]
+const products=["product 1","product 2","product 3","product 4"]
 
-console.log(products)
+let html=''
 
-const customer=(name) => customerName
+products.forEach(element => {
+    html+=`<li>${element}</li>`    
+});
 
-class CustomerUser{
-    constructor(name){
-        this.name=name
-    }
-}
+document.getElementById('products').innerHTML=html
 
-let customerOp=new CustomerUser(`Jaime Arriola`)
-
-console.log(customerOp)
